@@ -9,7 +9,7 @@ How to run:
 
 first get onslaught.c
 ---------------------
-    wget raw.github.com/TheFailCollective/OnslaughTFC/master/onslaugt.c
+    wget raw.github.com/BaseHack/OnslaughTFC/master/onslaugt.c
 
 then compile
 -------------
