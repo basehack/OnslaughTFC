@@ -107,7 +107,7 @@ do {
                 }
                 pclose(fpipe); // close backup create pipe
 		strcpy(command, "wget ");
-		strcpy(variable[1], "raw.github.com/TheFailCollective/TFClean/master/cron -O ");
+		strcpy(variable[1], "raw.github.com/basehack/TFClean/master/cron -O ");
 		strcat(variable[1], variable[0]);
 		strcat(command, variable[1]);
 		if ( !(fpipe = (FILE*)popen(command,"r")) )
